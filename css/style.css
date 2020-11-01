@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
-html{
-  font-size: 62.5%;
-}
-body{
+html,body{
   margin: 0;
   padding: 0;
   position: relative;
   background-color: #2D83CF;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 /*--------------背景--------------*/
 .area_bg{
@@ -16,19 +14,25 @@ body{
 }
 .bg_textBox{
   position: absolute;
-  width: 60rem;
-  height: 24rem;
-  top: 50%;
-  left: 50%;
-  margin: -12rem 0 0 -30rem;
+  /* width: 60rem;
+  height: 24rem; */
+  width: 40vw;
+  height: 15vw;
+  /* top: 50%;
+  left: 50%; */
+  /* margin: -12rem 0 0 -30rem; */
+  top: 15vw;
+  left: 30vw;
   background: rgba( 3, 30, 54, 0.5);
   box-sizing: border-box;
   text-align: center
 }
 .bg_text{
   font-family: 'Noto Sans TC', sans-serif;
-  font-size: 2.4rem;
-  line-height: 4.8rem;
+  /* font-size: 2.4rem; */
+  font-size: 1.55vw;
+  /* line-height: 4.8rem; */
+  line-height: 3.12vw;
   text-align: center;
   color: #fff;
   padding: 3.6rem;
@@ -47,32 +51,39 @@ body{
 .bg_title{
   position: absolute;
   top: 11rem;
-  left: 12rem;
+  /* left: 12rem; */
+  left: 7.8vw;
   font-family: DFKai-SB;
-  font-size: 4.8rem;
+  /* font-size: 4.8rem; */
+  font-size: 3.1vw;
   text-align: left;
   color: #fff;
+  text-shadow: #031E36 1px 1px 5px;
 }
 .bg_title2{
-  font-size: 5.6rem;
+  /* font-size: 5.6rem; */
+  font-size: 3.65vw;
   top: 10rem;
-  left: 6.4rem;
+  /* left: 6.4rem; */
+  left: 4.2vw;
 }
 .bg_title3{
   position: absolute;
   top: 11rem;
-  left: 26.4rem;
+  /* left: 26.4rem; */
+  left: 17.2vw;
   font-family: DFKai-SB;
-  font-size: 4.8rem;
+  /* font-size: 4.8rem; */
   text-align: left;
   color: #efdaa4;
 }
 .bg_title4{
   position: absolute;
   top: 11rem;
-  left: 36rem;
+  /* left: 36rem; */
+  left: 23.4vw;
   font-family: DFKai-SB;
-  font-size: 4.8rem;
+  /* font-size: 4.8rem; */
   text-align: left;
   color: #fff;
 }
@@ -91,7 +102,8 @@ body{
   position: absolute;
   top: 20%;
   left: 20%;
-  font-size: 5.6rem;
+  /* font-size: 5.6rem; */
+  font-size: 3.65vw;
   text-align: left;
   color: #efdaa4;
   text-shadow: #031E36 1px 1px 5px;
@@ -116,9 +128,11 @@ body{
 .row p{
   font-family: 'Noto Sans TC', sans-serif;
   color: #efdaa4;
-  font-size: 2.4rem;
+  /* font-size: 2.4rem; */
+  font-size: 1.55vw;
   font-style: normal;
-  line-height: 4.8rem;
+  /* line-height: 4.8rem; */
+  line-height: 3.1vw;
   text-align: left;
   padding: 1rem;
 }
@@ -134,35 +148,46 @@ body{
 .mazu-img{
   position: absolute;
   display: block;
-  right: 5%;
-  top: 15%;
-  max-height: 80%;  
-  max-width: 80%;
+  /* right: 5%;
+  top: 15%; */
+  right: 3.5vw;
+  top: 10.5vh;
+  /* max-height: 80%;
+  max-width: 80%; */
+  max-height: 44vw;
+  max-width: 56vw;
 }
 .mazu_title{
   position: absolute;
   max-width: 20%;
   max-height: 20%;
-  top: 8%;
-  left: 10%;
+  /* top: 8%;
+  left: 10%; */
+  top: 4vw;
+  left: 5vw;
 }
 .mazu_textBox{
   position: absolute;
-  width: 50%;
-  height: 60%;
+  width: 35vw;
+  /* height: 60vh; */
+  height: 28vw;
   border-radius: 2rem;
   background: rgba(3, 30, 54, 21);
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
-  top: 25%;
-  left: 5%;
+  /* top: 25%;
+  left: 5%; */
+  top: 12vw;
+  left: 3vw;
   text-align:center;
 }
 .mazu_text{
   font-family: 'Noto Sans TC', sans-serif;
   color: #efdaa4;
-  font-size: 2.4rem;
+  /* font-size: 2.4rem; */
+  font-size: 1.56vw;
   font-style: normal;
-  line-height: 4.8rem;
+  /* line-height: 4.8rem; */
+  line-height: 3.12vw;
   text-align: left;
   padding: 2rem;
 }
@@ -178,11 +203,13 @@ body{
   color: #0f4c81;
   background-color: #efdaa4;
   border-radius: 2rem;
-  font-size: 2.4rem;
+  /* font-size: 2.4rem; */
+  font-size: 1.56vw;
   font-style: normal;
   position: absolute;
-  top: 60rem;
-  left: 43.6rem;
+  /* top: 85vh; */
+  top: 40vw;
+  left: 28vw;
   padding: 0.4rem;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
 }
@@ -198,31 +225,40 @@ body{
 .wangya_img{
   position: absolute;
   display: block;
-  left: 5%;
-  top: 15%;
-  max-height: 70%;  
-  max-width: 70%;
+  /* left: 5%;
+  top: 15%; */
+  left: 3vw;
+  top: 8vw;
+  /* max-height: 70%;  
+  max-width: 70%; */
+  max-height: 33vw;
+  max-width: 42vw;
   border-radius: 2%;
 }
 .wangya_title{
   position: absolute;
   max-width: 20%;
   max-height: 20%;
-  top: 8%;
-  left: 50%;
+  /* top: 8%;
+  left: 50%; */
+  top: 4vw;
+  left: 34vw;
 }
 .wangya_textBox{
   position: absolute;
-  width: 50%;
-  height: 60%;
+  width: 35vw;
+  /* height: 60vh; */
+  height: 28vw;
   border-radius: 20px;
   background: rgba(3, 30, 54, 21);
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
-  top: 25%;
-  right: 5%;
+  /* top: 25%;
+  right: 5%; */
+  top: 12vw;
+  right: 3vw;
   text-align:center;
 }
-.wngya_text{
+.wangya_text{
   font-family: 'Noto Sans TC', sans-serif;
   color: #efdaa4;
   font-size: 2.4rem;
@@ -243,11 +279,14 @@ body{
   color: #0f4c81;
   background-color: #efdaa4;
   border-radius: 2rem;
-  font-size: 2.4rem;
+  /* font-size: 2.4rem; */
+  font-size: 1.56vw;
   font-style: normal;
   position: absolute;
-  top: 60rem;
-  right: 5.6rem;
+  /* top: 60rem;
+  right: 5.6rem; */
+  top: 40vw;
+  right: 3.2vw;
   padding: 0.4rem;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
 }
@@ -263,7 +302,8 @@ body{
   top: 0;
   left: 0;
   background-color: #031E36;
-  height: 6rem;
+  /* height: 6rem; */
+  height: 3.8vw;
   width: 100vw;
   display: flex;
 }
@@ -292,7 +332,8 @@ body{
   position: absolute;
   right: 8%;
   padding: 0.8rem;
-  font-size: 2.4rem;
+  /* font-size: 2.4rem; */
+  font-size: 1.56vw;
 }
 .nav-mazu-link:hover{
   color: #efdaa4;
@@ -302,7 +343,8 @@ body{
   position: absolute;
   right: 3%;
   padding: 0.8rem;
-  font-size: 2.4rem;
+  /* font-size: 2.4rem; */
+  font-size: 1.56vw;
 }
 .nav-wangya-link:hover{
   color: #efdaa4;
