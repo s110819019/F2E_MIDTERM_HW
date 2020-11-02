@@ -9,7 +9,7 @@ html,body{
 }
 /*--------------背景--------------*/
 .area_bg{
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
 }
 .bg_textBox{
@@ -52,7 +52,8 @@ html,body{
   position: absolute;
   top: 11rem;
   /* left: 12rem; */
-  left: 7.8vw;
+  /* left: 7.8vw; */
+  left: 10.8vw;
   font-family: DFKai-SB;
   /* font-size: 4.8rem; */
   font-size: 3.1vw;
@@ -65,13 +66,15 @@ html,body{
   font-size: 3.65vw;
   top: 10rem;
   /* left: 6.4rem; */
-  left: 4.2vw;
+  /* left: 4.2vw; */
+  left: 7.2vw;
 }
 .bg_title3{
   position: absolute;
   top: 11rem;
   /* left: 26.4rem; */
-  left: 17.2vw;
+  /* left: 17.2vw; */
+  left: 20.2vw; 
   font-family: DFKai-SB;
   /* font-size: 4.8rem; */
   text-align: left;
@@ -81,7 +84,8 @@ html,body{
   position: absolute;
   top: 11rem;
   /* left: 36rem; */
-  left: 23.4vw;
+  /* left: 23.4vw; */
+  left: 26.4vw;
   font-family: DFKai-SB;
   /* font-size: 4.8rem; */
   text-align: left;
@@ -221,6 +225,7 @@ html,body{
   background-color: #0f4c81;
   position: relative;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 7px 7px;
 }
 .wangya_img{
   position: absolute;
@@ -261,9 +266,11 @@ html,body{
 .wangya_text{
   font-family: 'Noto Sans TC', sans-serif;
   color: #efdaa4;
-  font-size: 2.4rem;
+  /* font-size: 2.4rem; */
+  font-size: 1.56vw;
   font-style: normal;
-  line-height: 4.8rem;
+  /* line-height: 4.8rem; */
+  line-height: 3.12vw;
   text-align: left;
   padding: 2rem;
 }
@@ -291,10 +298,20 @@ html,body{
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
 }
 /*--------------FOOTER--------------*/
-.box-footer{
+footer{
+  color: ghostwhite;
+  background-color: rgb(15, 76, 129);
+  /* margin: -10px; */
+  /* padding: 25px; */
+  /* margin-bottom: -20px; */
+  /* font-size: 1.6em; */
+  font-size: 0.65vw;
+  text-align: center;
+  line-height: 3.8vw;
   width: 100vw;
-  height: 5vh;
-  background-color: #C4C4C4;
+  height: 3.8vw;
+  margin-top: 1vw;
+  color: snow;
 }
 /*--------------導覽列--------------*/
 .nav{
@@ -306,6 +323,7 @@ html,body{
   height: 3.8vw;
   width: 100vw;
   display: flex;
+  transition: all 0.4s;
 }
 .nav ul{
   list-style-type: none;
